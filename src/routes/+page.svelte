@@ -2,7 +2,7 @@
 <script lang="ts">
     import { cleanable } from "$lib/index.js";
 
-    let parent = cleanable(0);
+    const parent = cleanable(0);
 
     parent.subscribe((value) => {
         console.log("parent changed", value);

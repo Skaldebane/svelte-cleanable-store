@@ -1,6 +1,6 @@
 {
     "name": "svelte-cleanable-store",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Custom Svelte store with built-in cleanup support on `subscribe` (like React's `useEffect`).",
     "license": "MIT",
     "author": {
