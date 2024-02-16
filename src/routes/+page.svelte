@@ -16,7 +16,7 @@
     }
 
     function increment() {
-        logs = ["$state++", "", ...logs];
+        logs = ["$state++", ...logs];
         $state++;
     }
 </script>
@@ -24,11 +24,5 @@
 <h1>state = {$state}</h1>
 <button on:click={increment}>Increment</button>
 {#each logs as log}
-    <p class={log === "$state++" ? "highlighted" : ""}>{log}</p>
+    <p style={log === "$state++" ? "color: green;": ""}>{log}</p>
 {/each}
-
-<style>
-    .highlighted {
-        color: green;
-    }
-</style>
