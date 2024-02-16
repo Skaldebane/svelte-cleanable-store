@@ -8,7 +8,10 @@
         "email": "skaldebane@gmail.com",
         "url": "https://skaldebane.dev"
     },
-    "repository": "github:Skaldebane/svelte-cleanable-store",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Skaldebane/svelte-cleanable-store.git"
+    },
     "bugs": "https://github.com/Skaldebane/svelte-cleanable-store/issues",
     "keywords": [
         "svelte",
