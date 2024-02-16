@@ -17,16 +17,16 @@ state.subscribe((value) => {
 
 Console output:
 
-```ts
-state = 0
+```cjs
+'state = 0'
 
-// state++
-cleaning up 0...
-state = 1
+// $state++
+'cleaning up 0...'
+'state = 1'
 
-// state = 5
-cleaning up 1...
-state = 5
+// $state = 5
+'cleaning up 1...'
+'state = 5'
 ```
 
 ## Example
